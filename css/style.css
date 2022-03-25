@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+body p{
+    color: rgb(146, 143, 143);
+    opacity: 80%;
+    font-size: 20px;
+}
+header{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    margin: 20px 50px;
+    font-size: 25px;
+}
+header nav{
+    height: 100px;
+    width: 500px;
+    margin: 20px 0;
+}
+nav a{
+    font-size: 20px;
+    margin-left: 11px;
+}
+nav a:hover{
+    background-color: white;
+    background-size: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+.dropdown{
+    overflow: hidden;
+}
+.btn-dropdown{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 11px;
+}
+.dropdown-cont{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header #main-header{
+    margin: auto auto;
+    text-align: center;
+    display: block;
+}
+#main-header p{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+}
+#main-header button{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:20px ;
+    padding: 20px;
+}
+header #label-list{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 10%;
+}
+#label-list .dot{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(206, 205, 205);
+    border-radius: 50%;
+    display: inline-block;
+ 
+
+}
+
+#welcome{
+    padding: 20px 40px;
+}
+#welcome h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#welcome p{
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+#welcome img{
+    width: 100%;
+}
+
+#what-we-do{
+    padding: 20px 30px;
+}
+#what-we-do h2{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#what-we-do .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#what-we-do .item{
+    width: 25%;
+    height: 400px;
+    text-align: center;
+}
+#what-we-do img{
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+#statistics{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 20px;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+#statistics h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+#statistics h2{
+    font-size: 50px;
+    margin: auto;
+}
+#statistics .container{
+    display: flex;
+    margin: 30px;
+    margin-top: 50px;
+}
+#statistics .item{
+    width: 25%;
+}
+
+#services{
+    display: flex;
+    height: 800px;
+    background-color: rgb(243, 243, 243);
+    padding: 50px 60px;
+    justify-content:space-between;
+}
+#services #left{
+    height: 600px;
+    width: 40%;
+}
+#services #right{
+    height: 700px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px 30px;
+}
+#services #right .item{
+    background-color: white;
+    border: 1px red solid;
+    width: 48%;
+    height: 48%;
+}
